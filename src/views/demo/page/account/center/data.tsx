@@ -12,11 +12,11 @@ export interface TabItem {
 
 export const tags: string[] = [
   '很有想法的',
-  '专注设计',
-  '川妹子',
-  '大长腿',
+  '机器视觉',
+  '人工智能',
+  '微服务',
   '海纳百川',
-  '前端开发',
+  '全栈开发',
   'vue3',
 ];
 <span class="iconify" data-icon="jam:codepen-circle" data-inline="false"></span>;
@@ -56,15 +56,15 @@ export const teams: ListItem[] = [
 export const details: ListItem[] = [
   {
     icon: 'ic:outline-contacts',
-    title: '交互专家',
+    title: '深度学习专家',
   },
   {
     icon: 'grommet-icons:cluster',
-    title: '某某某事业群',
+    title: '智能信息处理实验组',
   },
   {
     icon: 'bx:bx-home-circle',
-    title: '福建省厦门市',
+    title: '山东师范大学',
   },
 ];
 
@@ -96,10 +96,10 @@ export const articleList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 4; i++) {
     result.push({
-      title: 'Vben Admin',
-      description: ['Vben', '设计语言', 'Typescript'],
-      content: '基于Vue Next, TypeScript, Ant Design实现的一套完整的企业级后台管理系统。',
-      time: '2020-11-14 11:20',
+      title: 'Video_Surveillance',
+      description: ['Pytorch', 'Micro Service', 'Vue'],
+      content: '基于Pytorch、Spring Cloud、GRPC、Vue Next, TypeScript, Ant Design实现的工业级智能检测机器视觉平台',
+      time: '2021-05-23 11:20',
     });
   }
   return result;
@@ -124,8 +124,8 @@ export const projectList = (() => {
   const result: any[] = [];
   for (let i = 0; i < 8; i++) {
     result.push({
-      title: 'Vben Admin',
-      content: '基于Vue Next, TypeScript, Ant Design实现的一套完整的企业级后台管理系统。',
+      title: 'Video_Surveillance',
+      content: '基于Pytorch、Spring Cloud、GRPC、Vue Next, TypeScript, Ant Design实现的工业级智能检测机器视觉平台',
     });
   }
   return result;

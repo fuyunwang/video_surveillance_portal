@@ -1,7 +1,7 @@
 <template>
-  <PageWrapper :class="prefixCls" title="卡片列表">
+  <PageWrapper :class="prefixCls" title="检测算法选择">
     <template #headerContent>
-      基于Vue Next, TypeScript, Ant Design Vue实现的一套完整的企业级后台管理系统。
+      基于Pytorch、Spring Cloud、GRPC、Vue Next, TypeScript, Ant Design实现的工业级智能检测机器视觉平台
       <div :class="`${prefixCls}__link`">
         <a><Icon icon="bx:bx-paper-plane" color="#1890ff" /><span>开始</span></a>
         <a><Icon icon="carbon:warning" color="#1890ff" /><span>简介</span></a>
@@ -21,7 +21,7 @@
                     {{ item.title }}
                   </div>
                   <div :class="`${prefixCls}__card-detail`">
-                    基于Vue Next, TypeScript, Ant Design Vue实现的一套完整的企业级后台管理系统
+                    基于Pytorch、Spring Cloud、GRPC、Vue Next, TypeScript, Ant Design实现的工业级智能检测机器视觉平台
                   </div>
                 </a-card>
               </a-list-item>

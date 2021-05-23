@@ -58,7 +58,7 @@
 
       const avatar = computed(() => {
         const { avatar } = userStore.getUserInfo;
-        return avatar || headerImg;
+        return headerImg;
       });
 
       return {

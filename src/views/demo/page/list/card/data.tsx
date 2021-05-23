@@ -1,12 +1,24 @@
 export const cardList = (() => {
   const result: any[] = [];
-  for (let i = 0; i < 12; i++) {
+  const datas = [
+    '人脸检测',
+    '人脸对比',
+    '未穿安全帽检测',
+    '未穿工作服检测',
+    '打电话检测',
+    '吸烟检测',
+    '烟火检测',
+    '鼠患检测',
+    '未带厨师帽检测',
+    '未带口罩检测',
+    '烟雾检测'
+  ];
+  for (let i = 0; i < 11; i++) {
     result.push({
-      title: 'Vben Admin',
+      title: datas[i],
       icon: 'logos:vue',
       color: '#1890ff',
       active: '100',
-      new: '1,799',
       download: 'bx:bx-download',
     });
   }

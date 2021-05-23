@@ -6,7 +6,7 @@
           <a-col :span="8">
             <div :class="`${prefixCls}-top__avatar`">
               <img width="70" :src="avatar" />
-              <span>Vben</span>
+              <span>FuyunWang</span>
               <div>海纳百川，有容乃大</div>
             </div>
           </a-col>
@@ -80,7 +80,8 @@
     },
     setup() {
       const userStore = useUserStore();
-      const avatar = computed(() => userStore.getUserInfo.avatar || headerImg);
+      const avatar = headerImg;
+
       return {
         prefixCls: 'account-center',
         avatar,

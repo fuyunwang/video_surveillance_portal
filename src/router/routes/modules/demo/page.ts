@@ -144,7 +144,7 @@ const page: AppRouteModule = {
     },
     // =============================account end=============================
     // =============================exception start=============================
-    {
+ /*   {
       path: 'exception',
       name: 'ExceptionPage',
       component: getParentLayout('ExceptionPage'),
@@ -209,7 +209,7 @@ const page: AppRouteModule = {
           },
         },
       ],
-    },
+    },*/
     // =============================exception end=============================
     // =============================list start=============================
     {

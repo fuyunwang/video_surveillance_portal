@@ -2,13 +2,26 @@ import { FormSchema } from '/@/components/Form/index';
 
 export const searchList = (() => {
   const result: any[] = [];
+  const datas = [
+    '人脸检测',
+    '人脸对比',
+    '未穿安全帽检测',
+    '未穿工作服检测',
+    '打电话检测',
+    '吸烟检测',
+    '烟火检测',
+    '鼠患检测',
+    '未带厨师帽检测',
+    '未带口罩检测',
+    '烟雾检测'
+  ];
   for (let i = 0; i < 6; i++) {
     result.push({
       id: i,
-      title: 'Vben Admin',
-      description: ['Vben', '设计语言', 'Typescript'],
-      content: '基于Vue Next, TypeScript, Ant Design实现的一套完整的企业级后台管理系统。',
-      time: '2020-11-14 11:20',
+      title: datas[i],
+      description: ['Pytorch', 'Micro Service', 'Vue'],
+      content: ' 基于Pytorch、Spring Cloud、GRPC、Vue Next, TypeScript, Ant Design实现的工业级智能检测机器视觉平台',
+      time: '2021-05-14 11:20',
     });
   }
   return result;
