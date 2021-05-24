@@ -16,7 +16,7 @@ const menu: MenuModule = {
         name: t('routes.demo.iframe.antv'),
       },
       {
-        path: 'https://vvbin.cn/doc-next/',
+        path: 'https://github.com/fuyunwang/video_surveillance2021',
         name: t('routes.demo.iframe.docExternal'),
       },
     ],
