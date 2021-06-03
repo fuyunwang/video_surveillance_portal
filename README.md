@@ -5,6 +5,10 @@
 
 ## Video_Surveillance 前端项目
 
+### 在线体验
+
+[Video_Surveillance_Portal](http://120.27.20.141:8031/)
+
 ### 实现
 
 1. TypeScript
@@ -19,3 +23,4 @@
 1. yarn install
 
 2. yarn serve
+
